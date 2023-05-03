@@ -1,0 +1,28 @@
+.main_background {
+  align-items: center;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../public/background/background_auth.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.main_noBackground {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+  overflow-y: scroll;
+  height: 100vh;
+}

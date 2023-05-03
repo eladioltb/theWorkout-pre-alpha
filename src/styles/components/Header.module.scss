@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1vh 0vw 1.5vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  .header {
+    padding: 2vh 0 1vh;
+  }
+}
